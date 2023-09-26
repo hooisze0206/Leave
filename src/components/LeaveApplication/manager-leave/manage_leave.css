@@ -1,0 +1,64 @@
+.btn{
+    width: 90px
+}
+
+.approve_btn{
+    background-color: #BAC954;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    /* width: 95px */
+    width:95px;
+    text-align: center;
+    height: 35px;
+}
+.approve_btn:hover{
+    background-color: #9BAB36;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.approve_btn:disabled,
+.approve_btn[disabled]{
+    background-color: #C2C2C2;
+  fill:#666666;
+  pointer-events:none;
+}
+
+.reject_btn{
+    background-color: #D06262;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    width:95px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+}
+.reject_btn:hover{
+    background-color: #C74343;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reject_btn:disabled,
+.reject_btn[disabled]{
+    background-color: #C2C2C2;
+  fill:#666666;
+  pointer-events:none;
+}
+
+.check-icon{
+    color: white;
+    fill: white;
+    font-size: 1.1em;
+    padding-right: 5px;
+}
+
+.pending-card{
+    min-height: 300px;
+    
+}
+
+.empty-card{
+    text-align: center;
+    padding: 20px
+}

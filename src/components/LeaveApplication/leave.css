@@ -1,0 +1,60 @@
+.darkGreen{
+    background-color: aquamarine;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divider {
+    border-left: 1px solid gray;
+}
+
+option:disabled {
+    color: lightslategray;
+}
+
+.remove-btn:disabled{
+    background-color: lightslategray;
+}
+
+.leave-main{
+    display: flex;
+    gap: 30px;
+}
+
+.leave-main-left{
+    flex:2;
+}
+.leave-main-right{
+    flex:1;
+}
+
+.leave-balance-card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divider-vertical{
+    border-left: 2px solid silver;
+}
+
+.upcoming-leave-card{
+    min-height: 500px;
+}
+.upcoming-box{
+    justify-content: space-between;
+}
+
+.date-text{
+    color: gray;
+}
+
+.amount-text{
+    text-align: end;
+}
+

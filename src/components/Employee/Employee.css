@@ -1,0 +1,53 @@
+.right{
+    position: absolute;
+    right: 0px;
+}
+
+
+.btn{
+    max-width: 100px;
+    min-width: 80px;
+    right: 10px;
+}
+
+.border{
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+}
+
+.selectOptions{
+    min-width: 200px;
+}
+
+.input-size{
+    min-width: 200px;
+}
+
+.page{
+    padding: 10px 10px 10px 10px;
+}
+
+.edit-btn{
+    border: 2px solid rgba(130, 195, 236, 0.8);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+

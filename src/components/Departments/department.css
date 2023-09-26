@@ -1,0 +1,29 @@
+.flex-position{
+    display: flex;
+    gap: 30px;
+}
+
+.left-position{
+    flex:1;
+}
+.right-position{
+    flex:2;
+}
+.right2-position{
+    flex:1;
+}
+
+.space{
+    padding: 15px;
+}
+
+.edit-btn{
+    border: 2px solid rgba(130, 195, 236, 0.8);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color: aliceblue;
+    color: black;
+}

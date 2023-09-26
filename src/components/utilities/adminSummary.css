@@ -1,0 +1,11 @@
+.summary-flex{
+display: flex;
+gap: 30px;
+}
+
+.left-pos{
+    flex:1;
+}
+.right-pos{
+    flex:1;
+}

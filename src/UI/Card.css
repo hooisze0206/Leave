@@ -1,0 +1,11 @@
+.main-card{
+    height: 140px;
+}
+
+.center-icon {
+    /* Center vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }

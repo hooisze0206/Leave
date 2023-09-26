@@ -1,0 +1,37 @@
+.input-group {
+    position: relative;
+}
+.input-label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #666;
+}
+.input-element {
+    padding: 30px 5px 5px 5px;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.export-btn{
+    border: 2px solid rgba(130, 195, 236, 0.8);
+    background-color: whitesmoke;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.export-btn:hover{
+    background-color: rgba(130, 195, 236, 0.5);
+}
+
+.graph{
+    display: flex;
+    gap:30px;
+    flex-direction: column;flex-wrap: wrap;
+}
