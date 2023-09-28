@@ -16,7 +16,7 @@ function sleep(time) {
 function LoginUser(credentials) {
   var result;
 
-  fetch("/login", {
+  fetch("index.php/login", {
     mode: "cors",
     method: "POST",
     headers: {
@@ -55,7 +55,7 @@ function LoginForm({ setToken }) {
       user_id: formValue.user_id,
       password: formValue.password,
     };
-    fetch("/login", {
+    fetch("index.php/login", {
       mode: "cors",
       method: "POST",
       headers: {

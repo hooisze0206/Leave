@@ -63,7 +63,7 @@ function LeaveUtilizeReport() {
   }
 
   const onGridReady = useCallback((params) => {
-    fetch("report/annualSituation")
+    fetch("index.php/report/annualSituation")
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data);

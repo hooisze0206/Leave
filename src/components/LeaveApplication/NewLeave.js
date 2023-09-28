@@ -135,7 +135,7 @@ function NewLeave(props) {
     setDisable(true);
     setHide(false);
     console.log(allInputValue);
-    fetch("/leave/add_leave_request/" + props.info[0].user_id, {
+    fetch("index.php/leave/add_leave_request/" + props.info[0].user_id, {
       mode: "cors",
       method: "POST",
       headers: {

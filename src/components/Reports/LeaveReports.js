@@ -88,7 +88,7 @@ function LeaveReports() {
   }
   const countsByCs = {};
   const onGridReady = useCallback((params) => {
-    fetch("report/allLeave")
+    fetch("index.php/report/allLeave")
       .then((resp) => resp.json())
       .then((data) => {
         data.forEach(({ user_id }) => {

@@ -67,7 +67,7 @@ function EmployeeDetails() {
     const input = {
       user_id: e,
     };
-    fetch("/login/checkUserID", {
+    fetch("index.php/login/checkUserID", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(input),
@@ -131,7 +131,7 @@ function EmployeeDetails() {
       update_by: user,
     };
     console.log(allInputValue);
-    fetch("/user/" + formValue.user_id, {
+    fetch("index.php/user/" + formValue.user_id, {
       mode: "cors",
       method: "PUT",
       body: JSON.stringify(allInputValue),

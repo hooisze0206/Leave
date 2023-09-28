@@ -18,7 +18,7 @@ function PendingLeaveApproval(props) {
       user_id: props.user,
     };
     console.log(allInputValue);
-    fetch("leave/pending_leave/" + props.status, {
+    fetch("index.php/leave/pending_leave/" + props.status, {
       mode: "cors",
       method: "POST",
       headers: {
@@ -64,7 +64,7 @@ function PendingLeaveApproval(props) {
   }
 
   const confirm = () => {
-    fetch("/leave/update_leave_request", {
+    fetch("index.php/leave/update_leave_request", {
       mode: "cors",
       method: "POST",
       headers: {

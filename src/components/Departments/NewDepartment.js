@@ -24,7 +24,7 @@ function NewDepartment() {
     };
 
     console.log(allInputValue);
-    fetch("/department", {
+    fetch("index.php/department", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(allInputValue),

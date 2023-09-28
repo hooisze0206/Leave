@@ -11,7 +11,7 @@ export const useResource = (url) => {
   useEffect(() => {
     const fetchData = async () => {
       await sleep(1000);
-      const response = await fetch(url);
+      const response = await fetch("index.php/" + url);
       const json = await response.json();
       setData(json);
     };

@@ -68,7 +68,7 @@ function UserProfile() {
       update_by: params.user_id,
     };
     console.log(allInputValue);
-    fetch("/user/" + data.user_id, {
+    fetch("index.php/user/" + data.user_id, {
       mode: "cors",
       method: "PUT",
       body: JSON.stringify(allInputValue),

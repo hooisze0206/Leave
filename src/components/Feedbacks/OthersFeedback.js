@@ -24,7 +24,7 @@ function OthersFeedback({ user }) {
       user_id: user?.user_id,
     };
     console.log(allInputValue);
-    fetch("/feedback", {
+    fetch("index.php/feedback", {
       method: "POST",
       body: JSON.stringify(allInputValue),
       headers: {

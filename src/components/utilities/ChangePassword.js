@@ -37,7 +37,7 @@ function ChangePassword(props) {
     };
 
     console.log(input);
-    fetch("/login/checkUserPassword", {
+    fetch("index.php/login/checkUserPassword", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(input),
@@ -103,7 +103,7 @@ function ChangePassword(props) {
       password: newPassword,
     };
     console.log(allInputValue);
-    fetch("/login/changePassword", {
+    fetch("index.php/login/changePassword", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(allInputValue),

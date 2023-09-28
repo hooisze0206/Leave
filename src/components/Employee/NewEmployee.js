@@ -78,7 +78,7 @@ function NewEmployee() {
       gender: formValue.gender,
     };
     console.log(allInputValue);
-    fetch("/user", {
+    fetch("index.php/user", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(allInputValue),
@@ -107,7 +107,7 @@ function NewEmployee() {
     const input = {
       user_id: e,
     };
-    fetch("/login/checkUserID", {
+    fetch("index.php/login/checkUserID", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(input),

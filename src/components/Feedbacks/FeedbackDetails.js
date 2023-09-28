@@ -19,7 +19,7 @@ function FeedbackDetails(props) {
   }
 
   const update_feedback = (id) => {
-    fetch("/feedback/updateFeedbackStatus/" + id, {
+    fetch("index.php/feedback/updateFeedbackStatus/" + id, {
       mode: "cors",
       method: "POST",
       headers: {

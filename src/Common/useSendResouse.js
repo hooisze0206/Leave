@@ -9,7 +9,7 @@ export const useSendResource = (url, reqMethod, allInputValue) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      fetch("http://localhost:8080/" + url, {
+      fetch("index.php/" + url, {
         mode: "no-cors",
         method: reqMethod,
         body: JSON.stringify(allInputValue),

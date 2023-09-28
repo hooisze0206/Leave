@@ -16,7 +16,7 @@ function ForgotPassword(props) {
       email: email,
     };
 
-    fetch("/utility/forgotPassword", {
+    fetch("index.php/utility/forgotPassword", {
       mode: "cors",
       method: "POST",
       body: JSON.stringify(allInputValue),

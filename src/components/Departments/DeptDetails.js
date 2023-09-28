@@ -42,7 +42,7 @@ function DeptDetail(props) {
     };
 
     console.log(allInputValue);
-    fetch("/department", {
+    fetch("index.php/department", {
       mode: "cors",
       method: "PUT",
       body: JSON.stringify(allInputValue),

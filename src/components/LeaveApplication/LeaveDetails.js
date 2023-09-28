@@ -46,7 +46,7 @@ function LeaveDetails(props) {
       action: "Cancelled",
     };
     console.log(allInputValue);
-    fetch("/leave/update_leave_request", {
+    fetch("index.php/leave/update_leave_request", {
       mode: "cors",
       method: "POST",
       headers: {

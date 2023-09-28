@@ -3,7 +3,7 @@
   "version": "0.1.0",
 "homepage": "https://hooisze0206.github.io/Leave",
   "private": true,
-  "proxy": "http://localhost:8080/api",
+  "proxy": "https://heavier-helicopter.000webhostapp.com/",
   "dependencies": {
     "@fullcalendar/react": "^6.1.8",
     "@testing-library/jest-dom": "^5.16.5",

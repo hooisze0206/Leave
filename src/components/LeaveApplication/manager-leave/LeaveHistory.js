@@ -74,7 +74,7 @@ function LeaveHistory(props) {
       user_role: props.role,
     };
     console.log(allInputValue);
-    fetch("leave/all", {
+    fetch("index.php/leave/all", {
       mode: "cors",
       method: "POST",
       headers: {
