@@ -55,17 +55,14 @@ function LoginForm({ setToken }) {
       user_id: formValue.user_id,
       password: formValue.password,
     };
-    fetch(
-      "https://heavier-helicopter.000webhostapp.com/index.php/index.php/login",
-      {
-        mode: "cors",
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(allInputValue),
-      }
-    )
+    fetch("https://heavier-helicopter.000webhostapp.com/index.php/login", {
+      mode: "cors",
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(allInputValue),
+    })
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
