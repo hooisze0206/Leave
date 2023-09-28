@@ -16,7 +16,7 @@ function sleep(time) {
 function LoginUser(credentials) {
   var result;
 
-  fetch("index.php/login", {
+  fetch("https://heavier-helicopter.000webhostapp.com/index.php/login", {
     mode: "cors",
     method: "POST",
     headers: {
